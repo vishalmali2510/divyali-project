@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ShopingProject';
+  public loadFeture:any = 'recipes';
+  public type: any = "recipes";
+  onNavigate(feture) {
+    
+    this.loadFeture = feture;
+
+  }
 }
